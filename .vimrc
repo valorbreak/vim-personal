@@ -6,7 +6,7 @@ filetype plugin on
 filetype indent on
 
 " Enable line-number, highlight search and commandline menu
-set number
+" set number
 set hlsearch
 set wildmenu
 set ruler
