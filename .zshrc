@@ -86,28 +86,9 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
-# Add Drush Path to our path
-PATH=/Applications/xampp/xamppfiles/bin:/Applications/XAMPP/xamppfiles/htdocs/drush:$PATH
-
 export PATH
 
 # Aliases
 
-alias XAMPP="cd /Applications/XAMPP/xamppfiles"
-
-export PATH=$PATH:/Applications/acquia-drupal/drush
-
-# Setting PATH for Python 3.4
-# The orginal version is saved in .bash_profile.pysave
-PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
-export PATH
-
-export PATH=/usr/local/mysql/bin:$PATH
-export PATH=$PATH:/Applications/acquia-drupal/drush
-export PATH=$PATH:/Users/Uri/Dropbox/go/wspace/bin
-export GOPATH=/Users/Uri/Dropbox/go/wspace
-export GOBIN=/Users/Uri/Dropbox/go/wspace/bin
-
 # NVM - Node Version Manager
 source ~/.nvm/nvm.sh
-
