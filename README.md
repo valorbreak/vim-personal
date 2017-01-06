@@ -1,9 +1,12 @@
 # vim-personal
 Personal vim Settings
 
-# Windows Only
+Install ZSH
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+```
 
-- Install Babun
-
-## Fix for slow cygwin on windows
-http://stackoverflow.com/questions/28410852/startup-is-really-slow-for-all-cygwin-applications
+Install NVM
+```
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
+```
